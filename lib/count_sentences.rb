@@ -18,6 +18,6 @@ class String
     arr = self.split
     count = 0
     arr.each do |word|
-      if word.end_with(".")
+      if word.end_with(".") ||
   end
 end
