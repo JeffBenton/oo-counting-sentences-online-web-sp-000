@@ -18,5 +18,6 @@ class String
     arr = self.split("")
     count = 0
     count += arr.count(".") + arr.count("!") + arr.count("?")
+    count
   end
 end
